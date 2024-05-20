@@ -1,0 +1,51 @@
+@file,1,Traktor Kontrol X1 - 1
+BeatLoop16,,Button,,B044,B045,,,,B044,B045,,,,Shift + loop rotor push to enable 16loopstart (cue point is set to beginning of loop when activated)
+Browse,,Rotary,B010,,,,,,,,,,,rotor L
+CFXParameterCH1,,KnobSlider,B006,,,,,,,,,,Fast;,Knob 3
+CFXParameterCH2,,KnobSlider,B007,,,,,,,,,,Fast;,Knob 3
+Cue,,Button,,B024,B025,,,,B024,B025,,,Fast;Blink=500;Priority=50;,
+EQHigh,,KnobSlider,,B000,B001,,,,,,,,Fast;,Knob Dry/Wet
+EQLow,,KnobSlider,,B004,B005,,,,,,,,Fast;,Knob 2
+EQMid,,KnobSlider,,B002,B003,,,,,,,,Fast;,Knob 1
+FX1Assign1,,Button,B014,,,,,B014,,,,,,assign to deck (fx buttons in the middle)
+FX1Assign2,,Button,B015,,,,,B015,,,,,,assign to deck (fx buttons in the middle)
+FX2Assign1,,Button,B016,,,,,B016,,,,,,assign to deck (fx buttons in the middle)
+FX2Assign2,,Button,B017,,,,,B017,,,,,,assign to deck (fx buttons in the middle)
+Forward,,Button,B011,,,,,B011,,,,,,rotor R
+Gain,,KnobSlider,,B02C,B02D,,,,,,,,Fast;,Shift + Knob Dry/Wet
+GridAdjust,,Button,,B026,B027,,,,B026,B027,,,,CUP/ABS
+JumpToTrackStart,,Button,,B050,B051,,,,B050,B051,,,Priority=50;,Shift + Cue
+KeySync,,Button,,B054,B055,,,,B054,B055,,,,Shift + Play
+Load,,Button,,B012,B013,,,,B012,B013,,,,push rotor L
+LoopDouble,,Button,,B04A,B04B,,,,B04A,B04B,,,Fast;,Shift + Out
+LoopHalf,,Button,,B048,B049,,,,B048,B049,,,Fast;,Shift + In
+LoopIn,,Button,,B01C,B01D,,,,B01C,B01D,,,Fast;,
+LoopMove,,Rotary,,B01A,B01B,,,,,,,,,loop rotor Move loop fwd/bck by loop size
+LoopOut,,Button,,B01E,B01F,,,,B01E,B01F,,,Fast;,
+NoFunction,,Button,,B02F,,,,,B02F,B01B,,,,
+NoFunction,,DdjSxPad,,B030,,,,,B030,,,,Fast;,
+NoFunction,,Rotary,,B046,,,,,,,,,,loop rotor Move loop fwd/bck by loop size
+NoFunction,,Value,,,B047,,,,,,,,,
+NoFunction,,Button,,,,,,,B001,,,,,
+NoFunction,,Button,,,,,,,B02D,,,,Priority=50;,
+PAD10_BeatJump,,DdjSxPad,,,B023,,,,,B023,,,Fast;,Beat R fwd 16
+PAD15_BeatJump,,DdjSxPad,,B020,,,,,B020,,,,Fast;,Beat L back 16
+PAD16_BeatJump,,DdjSxPad,,B022,,,,,B022,,,,Fast;,Beat R fwd 16
+PAD1_BeatJump,,DdjSxPad,,,B04D,,,,,B04D,,,Fast;,Shift + Beat R back1
+PAD1_HotCue,,DdjSxPad,,B008,B009,,,,B008,B009,,,Fast;,Top four outer buttons for Hotcues
+PAD1_HotCue+Shift,,DdjSxPad,,B034,B035,,,,B034,B035,,,Fast;,Shift + Top four outer buttons for Hotcues
+PAD2_BeatJump,,DdjSxPad,,,B04F,,,,,B04F,,,Fast;,Shift + Beat R fwd 1
+PAD2_HotCue,,DdjSxPad,,B00A,B00B,,,,B00A,B00B,,,Fast;,
+PAD2_HotCue+Shift,,DdjSxPad,,B036,B037,,,,B036,B037,,,Fast;,
+PAD3_HotCue,,DdjSxPad,,B00C,B00D,,,,B00C,B00D,,,Fast;,
+PAD3_HotCue+Shift,,DdjSxPad,,B038,B039,,,,B038,B039,,,Fast;,
+PAD4_HotCue,,DdjSxPad,,B00E,B00F,,,,B00E,B00F,,,Fast;,
+PAD4_HotCue+Shift,,DdjSxPad,,B03A,B03B,,,,B03A,B03B,,,Fast;,
+PAD7_BeatJump,,DdjSxPad,,B04C,,,,,B04C,,,,Fast;,Shift + Beat L back1
+PAD8_BeatJump,,DdjSxPad,,B04E,,,,,B04E,,,,Fast;,Shift + Beat L fwd 1
+PAD9_BeatJump,,DdjSxPad,,,B021,,,,,B021,,,Fast;,Beat L back 16
+PlayPause,,Button,,B028,B029,,,,B028,B029,,,Fast;Blink=1000;Priority=50;,
+ReloopExit,,Button,,B018,B019,,,,B018,B019,,,Fast;,loop rotor pushEnable/Disable current loop (starts at beginning of loop when loop is activated again)
+SwitchActiveWindow,,Button,B03E,,,,,B03E,,,,,,Shift + rotor L
+Sync,,Button,,B02A,B02B,,,,B02A,B02B,,,Blink=600;,
+TapBpm,,Button,,B056,B057,,,,B056,B057,,,,Shift + Sync
